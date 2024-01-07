@@ -1,0 +1,143 @@
+/* section one */
+
+main .one {
+  margin-top: 178px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main p {
+  margin-top: 20px;
+  text-align: center;
+  max-width: 594px;
+}
+
+main .flowers_sections {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 20px;
+}
+
+main .flowers {
+  width: 467px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+main .flowers-title {
+  display: flex;
+  gap: 320px;
+  margin-bottom: 128px;
+}
+
+/* section two  */
+
+main .two {
+  width: 1440px;
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+main .service img {
+  width: 88px;
+  height: 88px;
+  margin-left: 137px;
+}
+
+main .service p {
+  width: 372px;
+  height: 35px;
+}
+
+/* section three */
+
+main .three {
+  margin-top: 128px;
+  margin-bottom: 128px;
+  background: rgba(229, 84, 115, 0.05);
+  border: 8px;
+  width: 100%;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 215px;
+}
+
+main .three p {
+  max-width: 594px;
+  color: rgba(39, 39, 39, 0.60);
+}
+
+main .offer {
+  text-align: center;
+}
+
+/* section four */
+
+main .four {
+  text-align: center;
+}
+
+main .four p {
+  margin: 24px auto;
+}
+
+main .images {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 128px;
+}
+
+/* section five */
+
+main .five {
+  margin: 0 auto;
+  background-image: url("../Images/Rectangle_9.png");
+  width: 1440px;
+  height: 449px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .five input {
+  margin-top: 48px;
+}
+
+main .five input[type="email"] {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: white;
+  border: none;
+  padding-left: 22px;
+}
+
+::placeholder {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main .five button {
+  margin-left: 12px;
+}
